@@ -1,0 +1,66 @@
+/* Quicksand font */
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* Shared relatade styles */
+.display-flex{
+  display: flex;
+}
+header,main,footer{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.btn-primary{
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 60px;
+  margin: 20px 1px;
+}
+
+/* Navvar Styles */
+.navvar{
+  justify-content: space-between;
+}
+
+.nav-list{
+  list-style: none;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.brand{
+  font-weight: bold;
+  font-size: 32px;
+  margin-left: 11px;
+}
+.menu{
+  display: none;
+}
+
+
+
+/* Responsive styles */
+@media screen and (max-width:576px) {
+  .navvar{
+    justify-content: space-between;
+    margin: 10px 20px;
+  }
+  .brand,.nav-list,.btn-primary{
+    display: none;
+  }
+  .menu{
+    display:block;
+    width: 30px;
+    margin-top: 5px;
+  }
+}

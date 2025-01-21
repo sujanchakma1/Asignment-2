@@ -30,7 +30,10 @@
 .navvar{
   justify-content: space-between;
 }
-
+.logo{
+  width: 82px;
+  height: 82px;
+}
 .nav-list{
   list-style: none;
   text-decoration: none;
@@ -213,9 +216,10 @@ footer{
   padding: 123px 0;
 }
 .kids>img{
-  width: 82px;
-  height: 100px;
-  margin-top: 30px;
+  width: 90px;
+  height: 90px;
+  margin-top: 45px;
+  margin-right: 5px;
 }
 .kids-title{
   font-weight: bold;

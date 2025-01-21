@@ -175,7 +175,13 @@
   width: 290px;
   height: 300px;
   border-radius: 14px;
+  border: 2px;
   
+}
+.stories-1>img,.stories-2>img,.stories-3>img,.stories-4>img,.training-classroom>img{
+  border-radius: 14px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .November{
   color: white;

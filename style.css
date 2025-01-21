@@ -12,7 +12,7 @@
   display: flex;
 }
 header,main,footer{
-  max-width: 1280px;
+  max-width: 1160px;
   margin: 0 auto;
 }
 .btn-primary{
@@ -22,6 +22,8 @@ header,main,footer{
   border-radius: 12px;
   padding: 10px 60px;
   margin: 20px 1px;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 /* Navvar Styles */
@@ -47,13 +49,32 @@ header,main,footer{
   display: none;
 }
 
+/* banner styles */
+.banner{
+  align-items: center;
+}
+.banner-container{
+  width: 640px;
+  margin-right: 50px;
+}
+.banner-title{
+  font-weight: bold;
+  font-size: 56px;
+}
+.banner-description{
+  font-size: 20px;
+}
+.enroll-now{
+  background-color: black;
+}
 
 
 /* Responsive styles */
 @media screen and (max-width:576px) {
   .navvar{
     justify-content: space-between;
-    margin: 10px 20px;
+    border: 1px solid orange;
+    padding: 12px 16px;
   }
   .brand,.nav-list,.btn-primary{
     display: none;
@@ -61,6 +82,26 @@ header,main,footer{
   .menu{
     display:block;
     width: 30px;
-    margin-top: 5px;
+    margin-top: 10px;
+  }
+  .banner{
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: 0 17px;
+  }
+  .banner-container{
+    margin-right: 0;
+  }
+  .banner-description{
+    width: 400px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 0;
+  }
+  .enroll-now{
+    display: grid;
+    margin-left: 210px;
+    margin-top: 80px;
+    text-align: center;
   }
 }

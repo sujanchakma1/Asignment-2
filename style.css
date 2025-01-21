@@ -11,7 +11,7 @@
 .display-flex{
   display: flex;
 }
-.navvar,.banner,.School-curriculum, .Our-stories{
+.navvar,.banner,.School-curriculum, .Our-stories, .footer{
   max-width: 1160px;
   margin: 0 auto;
 }
@@ -194,6 +194,38 @@
   margin-top: 80px;
  
 }
+
+/* foooter styles */
+footer{
+  background-color: #01ACFD;
+}
+.footer{
+  justify-content: space-around;
+  color: white;
+  padding: 123px 0;
+}
+.kids>img{
+  width: 82px;
+  height: 100px;
+  margin-top: 30px;
+}
+.kids-title{
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 35px;
+ 
+}
+.footer-details{
+  width: 400px;
+  height: 100px;
+}
+.about-school{
+  font-weight: 400;
+  font-size: 20px;
+}
+.footer-icon{
+  margin-right: 10px;
+}
 /* Responsive styles */
 @media screen and (max-width:576px) {
   .navvar{
@@ -248,5 +280,16 @@
     margin-top: 30px;
     margin-bottom: 40px;
     margin-left: 190px;
+  }
+  .footer{
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  footer{
+    margin-top: 100px;
+  }
+  .footer-details{
+    margin-left: 0;
+    margin-bottom: 70px;
   }
 }

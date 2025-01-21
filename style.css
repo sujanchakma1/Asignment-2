@@ -68,6 +68,73 @@ header,main,footer{
   background-color: black;
 }
 
+/* Standard Curriculum styles */
+.School-curriculum{
+  background-image: url(assets/bg.png);
+  background-position-x: center;
+  background-position-y:top;
+}
+.Standard-Curriculum{
+  text-align: center;
+  font-weight: bold;
+  font-size: 46px;
+  padding-top: 60px;
+  margin-bottom: 60px;
+  
+}
+.Curriculum-title{
+  font-weight: bold;
+  font-size: 24px;
+}
+.Curriculum-description{
+  font-weight: 400;
+  font-size: 16px;
+}
+.Curriculum{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3,1fr);
+}
+.Curriculum-section{
+  text-align: center;
+ ;
+  box-shadow: 0 0 28px rgba(1, 1, 0, 0.15) ;
+  border-radius: 20px;
+  padding: 50px 40px;
+}
+.Curriculum-section-1{
+  background: linear-gradient(to bottom, rgba(222, 245, 255, 1),white)
+}
+.Curriculum-section-2{
+  background: linear-gradient(to bottom, rgb(230, 223, 207),white)
+
+}
+.Curriculum-section-3{
+  background: linear-gradient(to bottom, rgba(242, 232, 255, 1),white)
+
+}
+.Read-More{
+  background-color: white;
+}
+
+.arrow-icon>button{
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: orange;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 40px;
+}
+.arrow:hover{
+   background-color: brown;
+}
+.arrow-icon{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 80px 0 60px 0;
+}
 
 /* Responsive styles */
 @media screen and (max-width:576px) {
@@ -103,5 +170,12 @@ header,main,footer{
     margin-left: 210px;
     margin-top: 80px;
     text-align: center;
+  }
+  .Curriculum{
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 10px;
+  }
+  .arrow-icon{
+    display: none;
   }
 }

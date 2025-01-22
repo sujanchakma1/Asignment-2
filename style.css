@@ -11,7 +11,7 @@
 .display-flex{
   display: flex;
 }
-.navvar,.banner,.School-curriculum, .Our-stories, .footer{
+.navvar,.banner,.School-curriculum, .Our-stories, .footer, .marquee{
   max-width: 1160px;
   margin: 0 auto;
 }
@@ -51,7 +51,21 @@
 .menu{
   display: none;
 }
-
+.marquee{
+  background-color:darkgrey;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+.marquee-image{
+  width: 60px;
+  height: 50px;
+  margin-top: 10px;
+}
+.marquee-title{
+  font-weight: bold;
+  font-size: 42px;
+}
 /* banner styles */
 .banner{
   align-items: center;
@@ -259,9 +273,10 @@ footer{
   }
   .menu{
     display:block;
-    width: 30px;
-    margin-top: 10px;
+    width: 50px;
+    margin-top: 15px;
   }
+
   .banner{
     flex-direction: column-reverse;
     text-align: center;
@@ -277,7 +292,7 @@ footer{
   .banner-description{
     width: 400px;
     height: 50px;
-    margin-left: 100px;
+    margin-left: 120px;
   }
   .enroll-now{
     display: grid;

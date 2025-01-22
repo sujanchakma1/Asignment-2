@@ -259,6 +259,7 @@ footer{
   body{
     margin: 0 auto;
     padding: 0;
+    width: 100%;
   }
   .navvar{
     justify-content: space-between;
@@ -295,11 +296,11 @@ footer{
   .banner-description{
     width: 400px;
     height: 50px;
-    margin-left: 90px;
+    margin-left: 80px;
   }
   .enroll-now{
     display: grid;
-    margin-left: 180px;
+    margin-left: 170px;
     margin-top: 80px;
     text-align: center;
   }

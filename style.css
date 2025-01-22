@@ -265,7 +265,10 @@ footer{
   .banner{
     flex-direction: column-reverse;
     text-align: center;
-    margin: 0 17px;
+    margin: 0 ;
+  }
+  .banner-title{
+    padding: 0 10px;
   }
   .banner-container{
     margin-right: 0;
@@ -308,7 +311,7 @@ footer{
     display: grid;
     margin-top: 30px;
     margin-bottom: 40px;
-    margin-left: 190px;
+    margin-left: 170px;
   }
   .footer{
     flex-direction: column;
